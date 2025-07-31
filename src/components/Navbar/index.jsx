@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 const navItems = [
-  { name: "Home", route: "/home" },
+  { name: "Home", route: "/" },
   { name: "Find Doctors", route: "/find-doctor" },
   { name: "About Us", route: "/about-us" },
 ];
