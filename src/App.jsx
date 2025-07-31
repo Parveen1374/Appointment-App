@@ -8,7 +8,7 @@ const App = () => (
   <>
     <Navbar />
     <Routes>
-      <Route exact path="/home" element={<DetailedView />} />
+      <Route exact path="/" element={<DetailedView />} />
       <Route exact path="/find-doctor" element={<HomeView />} />
     </Routes>
   </>
